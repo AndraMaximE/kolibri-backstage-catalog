@@ -5,8 +5,9 @@ metadata:
   description: A collection of all Kolibri entities
 spec:
   targets:
+    - ./domains/catalog-info.yaml
+    - ./systems/catalog-info.yaml
+    - ./users/catalog-info.yaml
+    - ./groups/catalog-info.yaml
     - ./all-components.yaml
-    - ./apis/kolibri-api.yaml
-    - ./domains/kolibri-domain.yaml
-    - ./systems/kolibri-system.yaml
-    - ./all-users-and-groups.yaml
+    - ./apis/api-spotify/catalog-info.yaml
