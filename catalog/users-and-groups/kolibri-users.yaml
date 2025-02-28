@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+ name: catrinel
+spec:
+ profile:
+   displayName: "Catrinel"
+   email: catrinel@endava.com
+ memberOf:
+   - frontend-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+ name: cristi
+spec:
+ profile:
+   displayName: "Cristi"
+   email: cristi@endava.com
+ memberOf:
+   - backend-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+ name: andra
+spec:
+ profile:
+   displayName: "Andra"
+   email: andra@endava.com
+ memberOf:
+   - design-team

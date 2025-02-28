@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: kolibri-system
+  description: System for Kolibri
+spec:
+  owner: kolibri-team
+  domain: kolibri-domain

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kolibri-design-system
+  description: Design system for Kolibri
+  annotations:
+    backstage.io/source-location: url:https://github.com/learningequality/kolibri-design-system/
+spec:
+  type: library
+  owner: design-team
+  lifecycle: production
+  systems: kolibri-system
