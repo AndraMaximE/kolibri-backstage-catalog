@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kolibri-design-system
+  title: Kolibri Design System
   description: Design system for Kolibri
   annotations:
     backstage.io/source-location: url:https://github.com/learningequality/kolibri-design-system/

@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kolibri-frontend
+  title: Kolibri Frontend
   description: Frontend component for Kolibri
   annotations:
     backstage.io/source-location: url:https://github.com/learningequality/kolibri/

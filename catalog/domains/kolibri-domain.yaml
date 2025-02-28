@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: kolibri-domain
+  title: Kolibri Domain
   description: Domain for Kolibri
 spec:
   owner: kolibri-team

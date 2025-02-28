@@ -1,44 +1,47 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
- name: kolibri-team
- description: Main team for the Kolibri project
+  name: kolibri-team
+  description: Main team for the Kolibri project
 spec:
- type: team
- children:
-   - frontend-team
-   - backend-team
-   - design-team
+  type: team
+  children:
+    - frontend-team
+    - backend-team
+    - design-team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
- name: frontend-team
- description: Team responsible for the frontend
+  name: frontend-team
+  description: Team responsible for the frontend
 spec:
- type: team
- parent: kolibri-team
- members:
-   - catrinel
+  type: team
+  parent: kolibri-team
+  members:
+    - catrinel
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
- name: backend-team
- description: Team responsible for the backend
+  name: backend-team
+  description: Team responsible for the backend
 spec:
- type: team
- parent: kolibri-team
- members:
-   - cristi
+  type: team
+  parent: kolibri-team
+  members:
+    - cristi
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
- name: design-team
- description: Team responsible for the design system
+  name: design-team
+  description: Team responsible for the design system
 spec:
- type: team
- parent: kolibri-team
- members:
-   - andra
+  type: team
+  parent: kolibri-team
+  members:
+    - andra
+  children: []

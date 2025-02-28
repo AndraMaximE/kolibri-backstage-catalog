@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: kolibri-system
+  title: Kolibri System
   description: System for Kolibri
 spec:
   owner: kolibri-team
