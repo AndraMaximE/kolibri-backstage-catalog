@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-entities
+  description: A collection of all Kolibri entities
+spec:
+  targets:
+    - ./all-components.yaml
+    - ./apis/kolibri-api.yaml
+    - ./domains/kolibri-domain.yaml
+    - ./systems/kolibri-system.yaml
+    - ./all-users-and-groups.yaml

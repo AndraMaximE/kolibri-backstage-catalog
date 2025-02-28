@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-components
+  description: A collection of all Kolibri components
+spec:
+  targets:
+    - ./components/kolibri-backend.yaml
+    - ./components/kolibri-frontend.yaml
+    - ./components/kolibri-design-system.yaml
