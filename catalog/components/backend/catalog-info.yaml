@@ -16,4 +16,4 @@ spec:
   type: website
   owner: backend-team
   lifecycle: production
-  systems: kolibri-system
+  system: kolibri-system

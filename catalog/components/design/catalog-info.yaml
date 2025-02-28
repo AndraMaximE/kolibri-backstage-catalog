@@ -10,4 +10,4 @@ spec:
   type: library
   owner: design-team
   lifecycle: production
-  systems: kolibri-system
+  system: kolibri-system
