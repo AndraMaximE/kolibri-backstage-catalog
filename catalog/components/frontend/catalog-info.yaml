@@ -11,8 +11,7 @@ metadata:
   links:
     - url: https://kolibri-dev.readthedocs.io/en/develop/
       title: Kolibri developer documentation
-      icon: documentation
-      type: documentation
+      icon: search
 spec:
   type: website
   owner: frontend-team
