@@ -11,3 +11,4 @@ spec:
     - ./groups/catalog-info.yaml
     - ./all-components.yaml
     - ./apis/api-spotify/catalog-info.yaml
+    - ./apis/swagger-api/catalog-info.yaml
