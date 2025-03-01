@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kolibri-docs
+  title: Kolibri Docs
+  description: Docs for Kolibri
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: kolibri-team
+  lifecycle: production
+  system: kolibri-system
