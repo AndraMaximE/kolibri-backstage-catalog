@@ -9,6 +9,9 @@ spec:
     - frontend-team
     - backend-team
     - design-team
+  members:
+    - user1
+    - user2
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group

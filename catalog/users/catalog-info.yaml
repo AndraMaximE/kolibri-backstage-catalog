@@ -30,3 +30,25 @@ spec:
    email: andra@endava.com
  memberOf:
    - design-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+ name: user1
+spec:
+ profile:
+   displayName: "User1"
+   email: user1@endava.com
+ memberOf:
+   - kolibri-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+ name: user2
+spec:
+ profile:
+   displayName: "User2"
+   email: user2@endava.com
+ memberOf:
+   - kolibri-team
